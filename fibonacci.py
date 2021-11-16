@@ -1,0 +1,12 @@
+n=int(input())
+a=0
+b=1
+c=a+b
+s=0
+while(c<n):
+ c=a+b
+ a=b
+ b=c
+ if(c%2==0):
+     s=s+c
+print(s)
